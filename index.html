@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/reset.css" />
+   <link rel="stylesheet" href="./css/fonts.css" />
+   <link rel="stylesheet" href="./css/style.css" />
+   <link rel="shortcut icon" href="./assets/images/logo.svg" type="image/x-icon">
+   <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+   <script type="module" src="./js/script.js" defer></script>
+   <title>Poly | Class</title>
+</head>
+
+<body>
+   <section class="loader">
+      <div class="loader__logo">
+         <img src="./assets/images/logo.svg" alt="Логотип">
+      </div>
+      <div class="loader__place">
+         <div class="loader__star">
+            <img src="./assets/images/stars.png" alt="Звезды">
+         </div>
+      </div>
+   </section>
+   <header class="header">
+      <div class="header__inner container">
+         <nav class="header__nav">
+            <button type="button" class="header__btn" id="header-btn-1">Диаграмма</button>
+            <button type="button" class="header__btn" id="header-btn-2">Chart.js</button>
+            <button type="button" class="header__btn" id="header-btn-3">График</button>
+         </nav>
+      </div>
+   </header>
+   <main class="main">
+      <div class="main__inner container" id="main"></div>
+   </main>
+</body>
+
+</html>
