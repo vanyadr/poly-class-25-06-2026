@@ -12,7 +12,7 @@
 
 Функция для рассчета линейной регрессии (звучит сложно, но нам не важно, как она работает под капотом)
 
-```
+```javascript
 function calculateLinearRegression(data) {
    const n = data.length;
 
@@ -43,7 +43,7 @@ function calculateLinearRegression(data) {
 
 Пример mock даных
 
-```
+```javascript
 import { drawChart1 } from "./modules/drawChart1.js";
 import { drawChart2 } from "./modules/drawChart2.js";
 import { drawChart3 } from "./modules/drawChart3.js";
